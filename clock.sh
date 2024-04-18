@@ -1,8 +1,13 @@
 #!/bin/bash
-
+#PL
 # zegar głosem oznajmiający czas, autorstwa novax67@gmail.com, korzystałem z niżej podanego źródła
 # more information available at http://www.jumpstation.co.uk/scripts/talkingclock/
 # należy nagrać pliki dźwiękowe i umieścić w katalogu, do którego odnosi się skrypt (u mnie Muzyka/Sample)
+#Nazwa sampli jest kluczowa, nie należy jej zmieniać.
+#ENG
+#The clock is an voice speaking clock. I used sample script from www.jumpstation.co.uk/scripts/talkingclock
+#You have to record sound files in a folder you choose (mine Muzyka/Sample)
+#The names of samples are essential, do not change it
 
 ##for a in {1..48} ;do
 while  [  1  ] ; do #pętla nieskończona
