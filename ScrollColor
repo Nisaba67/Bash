@@ -16,7 +16,7 @@ do
    if [ "$c" -gt 46 ]
    then c=30
    fi
-  echo -e "            \e[${c}m ${h:$b:45} \e[0m" ; 
+  echo -e "            \e[${c}m ${h:$b:45}             \e[0m" ; 
   a=$(( a + 1 )); 
   b=$(( b + 1 )); 
   sleep 0.1s ; 
