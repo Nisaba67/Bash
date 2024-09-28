@@ -1,0 +1,32 @@
+Przykład skryptu bash przesuwającego zadany tekst w oknie terminala i zmieniający jego kolor z każdą pętlą.
+This is script of bash scrolling text and changing the color of each loop.
+
+=====================================
+
+#!/bin/bash
+a=1 ;
+b=0 ; 
+c=30 ; 
+h="               HELLO WORLD ! THIS IS MY EXAMPLE OF COLORFULL AND SCROLLING TEXT IN TERMINAL WINDOW. YOU CAN USE IT BUT LEAVE THE AUTHOR E_MAIL ADDRES" ; 
+L=`expr "$h" : ".*"` ; 
+
+while [ "$a" -lt "$L" ] ; 
+do 
+  c=$(( c + 1 )); 
+   if [ "$c" -gt 46 ]
+   then c=30
+   fi
+  echo -e "            \e[${c}m ${h:$b:45} \e[0m" ; 
+  a=$(( a + 1 )); 
+  b=$(( b + 1 )); 
+  sleep 0.1s ; 
+##  echo "Petla numer $a" ##
+clear
+done ;
+exit
+echo "To jest koniec skryptu"
+sleep 3s
+
+# AUTHOR: novax67@gmail.com
+exit
+
