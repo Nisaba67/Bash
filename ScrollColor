@@ -1,7 +1,7 @@
-Przykład skryptu bash przesuwającego zadany tekst w oknie terminala i zmieniający jego kolor z każdą pętlą.
-This is script of bash scrolling text and changing the color of each loop.
+#Przykład skryptu bash przesuwającego zadany tekst w oknie terminala i zmieniający jego kolor z każdą pętlą.
+#This is script of bash scrolling text and changing the color of each loop.
 
-=====================================
+#=====================================
 
 #!/bin/bash
 a=1 ;
